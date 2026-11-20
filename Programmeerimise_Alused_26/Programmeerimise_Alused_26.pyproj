@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>72e62c9c-d4aa-4a1e-96cc-b7b0bddf82a5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Programmeerimise_Alused_26.py</StartupFile>
+    <StartupFile>2.5 kontrolltöö.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include=".gitignore.py" />
     <Compile Include="2.5 kontrolltöö.py" />
+    <Compile Include="kontrolltöö 2.5.py" />
     <Compile Include="Programmeerimise_Alused_26.py" />
     <Compile Include="Teema2_Valikud.py" />
     <Compile Include="Töö_2_1.py" />

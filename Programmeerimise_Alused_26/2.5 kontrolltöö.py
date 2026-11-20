@@ -5,56 +5,51 @@
 
  
 # Kood:
+# ÜLESANNE 1
 
-print("Vali programm: ")
-print("1 - Kolmnurga kontroll") #puudub teine "
-print("2 - Hinde arvutamine")
-print("3 - Pileti hind")
+# print("Kolmnurga kontroll") # parandan "´" --> "
+# a=float(input("Sisesta 1. külje pikkus => ")) #lisan "float" ja üks ")"
+# b=float(input("Sisesta 2. külje pikkus => ")) # puudub üks ")"
+# c=float(input("Sisesta 3. külje pikkus => "))
+# if a+b>c and a+c>b and b+c>a: # parandan "or" --> "and" ja lisan ":"
+#     print("Kolmnurk on olemas")
+#     if a==b==c: # parandan "=" --> "=="
+#         print("Kolmnurk on võrdkülgne")
+#     elif a==b or b==c or a==c: # parandan "else if" --> "elif" ja lisan "a == c"
+#         print("Kolmnurk on võrdhaarne")
+#     else:
+#         print("Kolmnurk on erikülgne") # lisan taane
+# else:
+#     print("Sellist kolmnurka ei ole olemas")
+# print()
+# print("Hinde arvutamine")
+# punktid=int(input("Sisesta punktide arv (0-100) => "))
+# if punktid<0 or punktid>100: # parandan "and" --> "or"
+#     print("Vigane punktide arv")
+# elif punktid>=90: # parandan muudetud tingimuste järjekorda (suuremast väiksemani)
+#     print("Hinne: 5")
+# elif punktid>=75:
+#     print("Hinne: 4")
+# elif punktid>=50:
+#     print("Hinne: 3")
+# else:
+#     print("Hinne: 2")
+# print()
+# print("Pileti hind")
+# vanus=int(input("Sisesta oma vanus => "))
+# if vanus<7:
+#     print("Pilet on tasuta")
+# elif 7<=vanus<=18 or vanus>=65: # parandan "=>" --> ">="
+#     print("Pileti hind on 3 €")
+# else: # puudub ":"
+#     print("Pileti hind on 6 €") # puudub ")"
 
-Valik=input("Sisesta valik (1-3) => ")
-try:
-    if Valik == "1":
-        print("Kolmnurga kontroll") #parandasin jutumagrid
-        x = float(input("Sisesta 1. külje pikkus => "))
-        y = float(input("Sisesta 2. külje pikkus => "))
-        z = float(input("Sisesta 3. külje pikkus => "))
-        if x <= 0 or y <= 0 or z <= 0:
-            print("Vigane külje pikkus")
-    a=input("Sisesta 1. külje pikkus => ")
-    b=float(input("Sisesta 2. külje pikkus => ")) #puudub üks ")"
-    c=float(input("Sisesta 3. külje pikkus => "))
-    if a+b>c or a+c>b or b+c>a: # puudub üks ":"
-        print("Kolmnurk on olemas")
-        if a=b=c:
-            print("Kolmnurk on võrdkülgne")
-        else if a==b or b==c:
-            print("Kolmnurk on võrdhaarne")
-        else:
-        print("Kolmnurk on erikülgne")
-    else:
-        print("Sellist kolmnurka ei ole olemas")
-    print()
-    print("Hinde arvutamine")
-    punktid=int(input("Sisesta punktide arv (0-100) => "))
-    if punktid<0 and punktid>100:
-        print("Vigane punktide arv")
-    elif punktid>=50:
-        print("Hinne: 3")
-    elif punktid>=75:
-        print("Hinne: 4")
-    elif punktid>=90:
-        print("Hinne: 5")
-    else:
-        print("Hinne: 2")
-    print()
-    print("Pileti hind")
-    vanus=int(input("Sisesta oma vanus => "))
-    if vanus<7:
-        print("Pilet on tasuta")
-    elif 7<=vanus<=18 or vanus=>65:
-        print("Pileti hind on 3 €")
-    else: # puudub üks ":"
-        print("Pileti hind on 6 €") # puudub üks ")"
+# ÜLESANNE 2
+
+print ()
+
+
+
 
 # Programmi tulemus:
 
