@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include=".gitignore.py" />
+    <Compile Include="2.5 kontrolltöö.py" />
     <Compile Include="Programmeerimise_Alused_26.py" />
     <Compile Include="Teema2_Valikud.py" />
     <Compile Include="Töö_2_1.py" />
