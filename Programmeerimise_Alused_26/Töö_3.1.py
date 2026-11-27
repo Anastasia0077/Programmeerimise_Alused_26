@@ -1,47 +1,63 @@
+while True:
+    print("\nTee valik: ")
+    print("1. Sisestatakse 15 arvu.M√§√§rata, mitu neist on t√§isarvud. for kasutades")
+    print("2. K√ºsi kasutajalt arv A ja leia k√µigi naturaalarvude summa vahemikus 1 kuni A. for kasutades")
+    print("3. Sisestatakse 8 arvu. Leida nende korrutis (ainult positiivsete arvude puhul).")
+    print("4. Koosta programm, mis v√§ljastab ekraanile arvude ruudud vahemikus 10 kuni 20. 10^2, 11^2, 12^2, ..., 20^2")
+    print("5. Koosta programm, mis arvutab ainult negatiivsete arvude summa N sisestatud arvu seast. N v√§√§rtus sisestatakse klaviatuurilt.")
+    print("6. Klaviatuurilt sisestatakse N arvu. Koosta programm, mis m√§√§rab sisestatud arvude seast: negatiivsete arvude arvu, positiivsete arvude arvu, nullide arvu. (N v√§√§rtus sisestatakse klaviatuurilt.)")
+    print("7. v√§lju")
+
+    valik = input("Vali tegevus: ")
+
+    if valik == "7":
+        break
+
+    elif valik == "1":
 # 1
 # Sisestatakse 15 arvu.
-# M‰‰rata, mitu neist on t‰isarvud.
+# M√§√§rata, mitu neist on t√§isarvud.
 # for kasutades
 
-for i in range(15):
-    try:
-        arv=float(input(f"{i+1}. arv: "))
-        if arv.is_integer():
-            print(f"{arv} on t‰isarv.")
-        else:
-            print(f"{arv} ei ole t‰isarv.")
-    except ValueError:
-        print("Palun sisestage arv.")
-
+# for i in range(15):
+#     try:
+#         arv=float(input(f"{i+1}. arv: "))
+#         if arv.is_integer():
+#             print(f"{arv} on t√§isarv.")
+#         else:
+#             print(f"{arv} ei ole t√§isarv.")
+#     except ValueError:
+#         print("Palun sisestage arv.")
+#     elif valik == "2":
 # while kasutades
 i = 0
 while i < 15:
-    try:
-        arv=float(input(f"{i+1}. arv: "))
-        if arv.is_integer():
-            print(f"{arv} on t‰isarv.")
-        else:
-            print(f"{arv} ei ole t‰isarv.")
-    except ValueError:
-        print("Palun sisestage arv.")
-    i += 1
-# while True ja break kasutades
-i = 0
-while True:
-    try:
-        arv=float(input(f"{i+1}. arv: "))
-        if arv.is_integer():
-            print(f"{arv} on t‰isarv.")
-        else:
-            print(f"{arv} ei ole t‰isarv.")
-        i += 1 # arvu lugemine, ainult siis kui sisestus on ıige
-        if i==15:
-            break
-    except ValueError:
-        print("Palun sisestage arv.")
+        try:
+            arv=float(input(f"{i+1}. arv: "))
+            if arv.is_integer():
+                print(f"{arv} on t√§isarv.")
+            else:
+                print(f"{arv} ei ole t√§isarv.")
+        except ValueError:
+            print("Palun sisestage arv.")
+        i += 1
+# # while True ja break kasutades
+# i = 0
+# while True:
+#     try:
+#         arv=float(input(f"{i+1}. arv: "))
+#         if arv.is_integer():
+#             print(f"{arv} on t√§isarv.")
+#         else:
+#             print(f"{arv} ei ole t√§isarv.")
+#         i += 1 # arvu lugemine, ainult siis kui sisestus on √µige
+#         if i==15:
+#             break
+#     except ValueError:
+#         print("Palun sisestage arv.")
 
 # 2
-# K¸si kasutajalt arv A ja leia kıigi naturaalarvude summa vahemikus 1 kuni A.
+# K√ºsi kasutajalt arv A ja leia k√µigi naturaalarvude summa vahemikus 1 kuni A.
 # for kasutades
 
 try:
@@ -51,8 +67,8 @@ try:
         summa += i
     print(f"Summa vahemikus 1 kuni {A} on {summa}.")
 except ValueError:
-    print("Palun sisestage t‰isarv.")
-
+    print("Palun sisestage t√§isarv.")
+    elif valik == "3":
 # 3
 # Sisestatakse 8 arvu.
 # Leida nende korrutis (ainult positiivsete arvude puhul).
@@ -66,9 +82,9 @@ for i in range (8):
     except ValueError:
         print("Palun sisestage arv.")
 print(f"Positiivsete arvude korrutis on {korrutis}.")
-
+elif valik == "4":
 # 4
-# Koosta programm, mis v‰ljastab ekraanile arvude ruudud vahemikus 10 kuni 20. 10^2, 11^2, 12^2, ..., 20^2
+# Koosta programm, mis v√§ljastab ekraanile arvude ruudud vahemikus 10 kuni 20. 10^2, 11^2, 12^2, ..., 20^2
 
 for i in range(10, 21):
     print(f"{i} ruut on {i ** 2}")
@@ -77,11 +93,11 @@ i = 10
 while i <= 20:
     print(f"{i}^2 = {i**2}")
     i += 1
-
+elif valik == "5":
 # 5
 # Koosta programm, mis arvutab ainult negatiivsete arvude summa N sisestatud arvu seast.
-# N v‰‰rtus sisestatakse klaviatuurilt.
-# ıpilased kirjutavad ise
+# N v√§√§rtus sisestatakse klaviatuurilt.
+# √µpilased kirjutavad ise
 
 try: 
     N = int(input("Sisesta arvude kogus N: "))
@@ -95,18 +111,18 @@ try:
             print("Palun sisestage arv.")
     print(f"Negatiivsete arvude summa on {summa}.")
 except ValueError:
-    print("Palun sisestage t‰isarv")
-
+    print("Palun sisestage t√§isarv")
+elif valik == "6":
 # 6
 # Klaviatuurilt sisestatakse N arvu.
-# Koosta programm, mis m‰‰rab sisestatud arvude seast:
+# Koosta programm, mis m√§√§rab sisestatud arvude seast:
 
 # negatiivsete arvude arvu,
 
 # positiivsete arvude arvu,
 
 # nullide arvu.
-# (N v‰‰rtus sisestatakse klaviatuurilt.)
+# (N v√§√§rtus sisestatakse klaviatuurilt.)
 
 try:
     N = int(input("Sisesta arvude kogus N: "))
@@ -128,7 +144,9 @@ try:
     print(f"Positiivsete arvude arv: {positiivsed}")
     print(f"Nullide arv: {nullid}")
 except ValueError:
-    print("Palun sisestage t‰isarv.")
+    print("Palun sisestage t√§isarv.")
+else:
+        print("Vale valik!")
 
 
     

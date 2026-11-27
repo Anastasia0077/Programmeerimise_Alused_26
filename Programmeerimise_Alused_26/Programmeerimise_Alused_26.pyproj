@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>72e62c9c-d4aa-4a1e-96cc-b7b0bddf82a5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Töö_3.1.py</StartupFile>
+    <StartupFile>TÖÖ_3.1_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,7 @@
     <Compile Include="Tema_3_Valikud.py" />
     <Compile Include="Töö_2_1.py" />
     <Compile Include="Töö_3.1.py" />
+    <Compile Include="TÖÖ_3.1_2.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
