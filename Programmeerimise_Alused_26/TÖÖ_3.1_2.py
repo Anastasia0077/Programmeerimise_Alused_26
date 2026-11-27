@@ -143,3 +143,20 @@ while True:
     else:
         print("Vale valik!")
 
+#7. Väljastada ekraanile arvud, mis on K-ga jaguvad vahemikust [A, B].
+a = int(input("Sisesta A: "))
+b = int(input("Sisesta B: "))
+k = int(input("Sisesta K: "))
+
+for i in range(a, b + 1):
+    if i % k == 0:
+        print(i)
+
+#8. Koosta programm, mis prindib tollide ja sentimeetrite teisendustabeli
+# (1 toll = 2,5 cm) väärtuste jaoks 1 kuni 20 tolli.
+for toll in range(1, 21):
+    cm = toll * 2.5
+    print(f"{toll} tolli = {cm} cm")
+
+#9. Panka pandi S eurot 3% intressiga.
+#Määrata, kui suureks summa muutub N aasta järel.
